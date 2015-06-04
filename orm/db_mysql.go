@@ -42,7 +42,7 @@ var mysqlTypes = map[string]string{
 	"pk":              "NOT NULL PRIMARY KEY",
 	"bool":            "bool",
 	"string":          "varchar(%d)",
-	"string-text":     "longtext",
+	"string-text":     "text",
 	"time.Time-date":  "date",
 	"time.Time":       "datetime",
 	"int8":            "tinyint",
